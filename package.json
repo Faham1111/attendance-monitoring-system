@@ -1,0 +1,29 @@
+{
+  "name": "attendance-monitoring-system",
+  "version": "1.0.0",
+  "description": "This a Admin Dashboard for attendance monitoring system, it is a web-based interface where administrators (HR, managers, etc.) can monitor attendance, track employees in real time, generate reports, and manage system settings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faham1111/attendance-monitoring-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Faham1111/attendance-monitoring-system/issues"
+  },
+  "homepage": "https://github.com/Faham1111/attendance-monitoring-system#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0"
+  }
+}
